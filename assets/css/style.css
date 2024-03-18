@@ -1,0 +1,591 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Jura";
+}
+
+.size_1400px {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+/* header */
+.head {
+    background-color: #000000;
+}
+
+.wid {
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    gap: 30px;
+    transition: .3s;
+}
+
+.navigation a {
+    color: white;
+    font-size: 18px;
+}
+
+.navigation a:hover {
+    color: #b8b8b8;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    gap: 6px;
+}
+/* header */
+
+/* bunner */
+.bunner {
+    background-image: url(..//media/banner/image\ 4.png);
+    background-size: cover;
+    height: 90vh;
+}
+
+.txt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    padding-top: 350px;
+}
+
+.txt p {
+    color: white;
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.txt h2 {
+    color: white;
+    font-size: 52px;
+    font-weight: 800;
+}
+
+.btn button {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    padding: 14px 74px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.btn button:hover {
+    background-color: white;
+    color: rgb(0, 0, 0);
+}
+
+/* bunner */
+
+/* popular */
+.popular_tovars h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    padding-top: 150px;
+    padding-bottom: 50px;
+    font-size: 40px;
+}
+
+.tovars {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+.tovars_card {
+    display: flex;
+}
+
+.card p{
+    padding-top: 20px;
+    text-align: center;
+    color: black;
+    font-weight: 600;
+}
+
+.price {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price p {
+    text-align: center;
+}
+
+.price img{
+    padding-top: 30px;
+}
+
+.tt {
+    padding-top: 50px;
+}
+/* popular */
+
+/* plitka */
+.plitka_tovars {
+    padding-top: 150px;
+}
+
+.plita {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.card_plit {
+    position: relative;
+}
+
+.card_plit button {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 20%;
+    margin: 0 auto;
+
+    width: 190px;
+    padding: 20px 40px;
+    font-size: 26px;
+    font-weight: 600;
+    background-color: transparent;
+    /* border: 1px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255); */
+    border: none;
+    color: white;
+    cursor: pointer;
+    /* transition: .3s; */
+}
+
+/* plitka */
+
+
+
+/* footer */
+.footer_sec {
+    margin-top: 150px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: black;
+}
+
+.footer_obj {
+   display: flex;
+   justify-content: space-around;
+   flex-direction: row;
+}
+
+.kont_img{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.kont h2{
+    color: white;
+}
+
+.footer_text {
+    color: white;
+    font-size: 20px;
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    transition: .3s;
+}
+
+.footer_text h2 {
+    padding-bottom: 20px;
+}
+
+.footer_text a:hover {
+    color: #b8b8b8;
+}
+
+.footer_text a{
+    margin: 20px 0;
+    color: white;
+}
+/* footer */
+
+
+
+/* hleb */
+.hleb_krosh {
+    padding-top: 100px;
+}
+
+.hleb_krosh a{
+    color: rgb(99, 99, 99);
+}
+
+.hleb_krosh a:hover {
+    color: black;
+}
+/* hleb */
+
+/* filter */
+.catalog_name h2 {
+    text-align: center;
+}
+
+.catalog_name {
+    padding-top: 50px;
+}
+
+.sec_filtername {
+    display: flex;
+    
+    align-items: center;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.filt {
+    padding-top: 30px;
+}
+
+.filt button{
+    padding: 20px 40px;
+    background-color: transparent;
+    border: 1px solid black;
+
+    font-size: 24px;
+}
+
+/* filter */
+
+/* tovassss */
+
+.name_tov {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.catalog_name {
+    font-size: 40px;
+}
+
+.name_tov p {
+    font-size: 24px;
+    color: #000000;
+}
+
+.size_tov {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    padding-top: 30px;
+}
+
+.size_tov a{
+    color: #000;
+    font-size: 20px;
+}
+
+.size_tov a:hover {
+    color: #5f5f5f;
+}
+
+.btn_katal {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    margin: 0 auto;
+}
+
+.btn_katal button{
+    padding: 15px 40px;
+    background-color: transparent;
+    border: 1px solid black;
+
+    cursor: pointer;
+    font-size: 24px;
+    transition: .3s;
+}
+
+.btn_katal button:hover {
+    background-color: #0e0e0e;
+    color: white;
+}
+
+.tovar_katal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tovar_katal {
+    padding-top: 100px;
+}
+/* tovassss */
+
+/* .slider */
+.slider {
+    padding-top: 100px;
+}
+
+.slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.txt_slide {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.txt_slide a{
+    padding: 5px 10px;
+    border:1px solid black;
+    color: #000;
+    font-size: 20px;
+    transition: .3s;
+}
+
+.txt_slide a:hover {
+    background-color: #000;
+    color: white;
+}
+/* .slider */
+
+/* one tovar */
+    .name_sec_one {
+        padding-top: 30px;
+    }
+
+    .cont_tovar {
+        padding-top: 30px;
+        display: flex;
+        flex-direction: row;
+        gap: 70px;
+    }
+
+    .photo_down {
+        padding-top: 10px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+
+    .txt-t p{
+        padding-top: 35px;
+        font-weight: 800;
+        font-size: 20px;
+    }
+
+    .txt-t .size{
+        font-weight: 100;
+    }
+
+    .btn_tovar button{
+        padding: 10px 40px;
+        border-radius: 5px;
+        border: 1px solid black;
+        background-color:transparent;
+        color: rgb(0, 0, 0);
+        font-weight: 900;
+        font-size: 18px;
+        cursor: pointer;
+        transition: .3s;
+    }
+
+    .btn_tovar button:hover {
+        background-color: #000000;
+        color: white;
+    }
+
+    .btn_tovar {
+        margin: 35px 0;
+    }
+
+    .opisanie p{
+        font-size: 18px;
+        margin: 35px 0;
+    }
+/* one tovar */
+
+
+.back_fon {
+    margin: 200px 0;
+}
+
+.sss {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+
+    padding: 100px 100px;
+    border-radius: 50px;
+    background-color: #E9E9E9;
+}
+
+.txt_t {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.kolvo {
+    display: flex;
+    gap: 50px;
+}
+
+.kolvo p {
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.plus {
+    display: flex;
+    gap: 20px;
+}
+
+.plus button {
+    padding: 2px 4px;
+}
+
+.pr {
+    margin: 20px 0;
+}
+
+.pr p{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.b button{
+    padding: 10px 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: #000000;
+    color: white;
+    font-weight: 900;
+    font-size: 18px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.b button:hover {
+    background-color: #292929;
+}
+
+.back{
+    color: #000000;
+}
+
+@media (max-width: 1200px) { 
+    .icon { 
+        display: block; 
+    } 
+ 
+    .navigation { 
+        display: none; 
+    } 
+ 
+    .icons { 
+        display: none; 
+    } 
+ 
+    .txt { 
+        text-align: center; 
+    } 
+ 
+    .popular_tovars { 
+        text-align: center; 
+    } 
+ 
+    .tovars { 
+        display:flex; 
+        flex-wrap: wrap; 
+        justify-content: center; 
+        gap: 30px; 
+    } 
+ 
+    .plita { 
+        display: flex; 
+        flex-direction: column; 
+        gap: 30px; 
+    } 
+ 
+    .footer_obj { 
+        display: flex; 
+        flex-direction: column; 
+        gap: 30px; 
+    } 
+ 
+    .footer_text { 
+        text-align: center; 
+    } 
+ 
+ 
+    .hleb_krosh { 
+        display: none; 
+    } 
+ 
+    .back_hleb { 
+        display: block; 
+    } 
+ 
+ 
+    .catalog_name h2{ 
+        text-align: center; 
+        font-size: 32px; 
+        font-weight: 400; 
+    } 
+ 
+    .filt { 
+        display: none; 
+    } 
+ 
+    .inp { 
+        display: none; 
+    } 
+ 
+    .filt_adap { 
+        display: block; 
+    } 
+ 
+     
+ 
+    .name_sec_one h2{ 
+        text-align: center; 
+    } 
+ 
+    .cont_tovar { 
+        display: flex; 
+        flex-direction: column; 
+        justify-content: center; 
+        align-items: center; 
+    } 
+}
